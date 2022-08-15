@@ -1,0 +1,70 @@
+html{scroll-behavior:smooth;font-family: 'PT Sans Narrow', sans-serif;}
+body{max-width: 100%;margin: 0;font-family: 'Roboto Condensed', sans-serif;background-color: #ffc34d}
+
+.body-usuarios{background-color: black;}
+.usuarios{width: 100%;height: 100%;background-color: black;}
+.usuarios1{width: 100%;text-align: center;}
+.usuarios1 h4{color: white;font-size: 290%;font-weight: 500;margin-top: 2.5%;}
+.contenedor-usuarios{display: flex;width: 100%;}
+.usuarios-contenedor{width: 100%;display: flex;margin-left: 25%;margin-top: 2.5%;margin-bottom: 2.5%;flex-flow: wrap;}
+.usuario{flex-flow: wrap;padding: 2%;}
+.usuario img{width: 100%;border-radius: 5px;}
+.usuario a{text-decoration: none;color: #808080;font-weight: 500;padding-top: 1%;}
+.usuario p{font-weight: 600;padding-top: 12%;}
+.usuario-1:hover p{color: white;}
+.usuario-2:hover p{color: white;}
+.usuario-3:hover p{color: white;}
+.usuario-4:hover p{color: white;}
+.usuario-4:hover img{background-color: rgba(255, 255, 255, 0.795);}
+.adminperfiles{width: 100%;text-align: center;padding-bottom: 9.5%;}
+.btn-adminperfiles{border-radius: 0px;width: 15%;}
+.btn-adminperfiles a{text-decoration: none;color: #808080;}
+.btn-adminperfiles p{font-weight: 600;margin-top: 1%;margin-bottom: -1%;}
+.btn-adminperfiles:hover a{background-color: #80808000;border-color: white;color: white;}
+.container-navbar-izq{margin-left: 5%;}
+.container-navbar-izq img{width: 15%;}
+.btn2{margin-left: 2%;}
+
+
+/* dispositivo pequeño */
+@media(max-width: 579px){
+    
+    .body-usuarios{background-color: black;}
+    .usuarios{width: 100%;height: 100%;background-color: black;}
+    .usuarios1{width: 100%;text-align: center;}
+    .usuarios1 h4{color: white;font-size: 210%;font-weight: 500;margin-top: 15%;}
+    .contenedor-usuarios{display: flex;width: 100%;}
+    .usuarios-contenedor{width: 100%;display: flex;margin-left: 0%;margin-top: 7.5%;margin-bottom: 2.5%;flex-flow: wrap;}
+    .usuarios-contenedor2{width: 100%;display: flex;margin-left: 0%;margin-top: 7.5%;margin-bottom: 2.5%;flex-flow: wrap;}
+    .usuario{flex-flow: wrap;padding: 2%;width: 50%;}
+    .usuario img{width: 60%;border-radius: 5px;}
+    .usuario a{text-decoration: none;color: #808080;font-weight: 500;padding-top: 1%;}
+    .usuario p{font-weight: 600;padding-top: 12%;font-size: 120%;}
+    .usuario-1:hover p{color: white;}
+    .usuario-2:hover p{color: white;}
+    .usuario-3:hover p{color: white;}
+    .usuario-4:hover p{color: white;}
+    .usuario-4:hover img{background-color: rgba(255, 255, 255, 0.795);}
+    .adminperfiles{width: 100%;text-align: center;padding-bottom: 9.5%;}
+    .btn-adminperfiles{border-radius: 0px;width: 50%;margin-top: 10%;}
+    .btn-adminperfiles a{text-decoration: none;color: #808080;}
+    .btn-adminperfiles p{font-weight: 600;margin-top: 1%;margin-bottom: -1%;}
+    .btn-adminperfiles:hover a{background-color: #80808000;border-color: white;color: white;}
+    .container-navbar-izq{margin-left: none;width: 15%;margin-top: 4.5%;}
+    .container-navbar-izq img{width: 110%;margin: none;}
+
+}
+
+
+/*
+html{scroll-behavior:smooth;font-family: 'PT Sans Narrow', sans-serif;}
+body{max-width: 100%;margin: 0;font-family: 'Roboto Condensed', sans-serif;background-color: #ffc44d}
+
+.titulo{padding: 10%;text-align: center;padding-top: 0%;}
+.titulo h1{font-size: 350%;text-align: center;}
+.titulo h3{font-size: 260%;text-align: center;}
+.titulo p{font-size: 180%;margin-bottom: -1%;}
+
+.site-footer{color: #ffc44d;background-color: black;text-align: center;font-weight: 500;margin-bottom: -2%;}
+.site-footer p{padding: 2%;}
+*/
